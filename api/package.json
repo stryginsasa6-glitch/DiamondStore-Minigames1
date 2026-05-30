@@ -1,0 +1,16 @@
+{
+  "name": "diamond-store-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend for Telegram Mini App",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
